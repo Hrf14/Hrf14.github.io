@@ -1,0 +1,77 @@
+.sosmed {
+  margin-bottom: 3px;
+}
+
+#content a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#content .card,
+#form-pesan,
+#form-pesan-textarea {
+  transition: 0.3s;
+}
+
+#content .card:hover {
+  box-shadow: 0 0 10.5px 0 #8c45ca;
+  border: 1px solid #b053ff;
+  scale: 101%;
+}
+
+#navbar .navbar-nav a {
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+#navbar ul li {
+  margin-right: 2px;
+}
+
+#navbar .navbar-nav a:hover,
+.aktif,
+.aktif:hover {
+  border-bottom: white 2px solid;
+}
+
+#content-login form input[type="email"],
+#content-login form input[type="password"] {
+  background: #c889ff;
+  border: none;
+  border: solid 1px #6f2baa;
+  outline: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+#content-login form input[type="email"]:focus,
+#content-login form input[type="password"]:focus {
+  background: #c889ff;
+  border: solid 1px transparent;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 #6f2baa;
+}
+
+#content-login .col-4 {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.274);
+}
+
+#login-btn {
+  background-color: rgb(185, 84, 84);
+}
+
+#form-pesan:focus,
+#form-pesan-textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px 0 #6f2baa;
+}
+
+#content-gallery img {
+  width: 100%;
+}
+
+#content-gallery .img-thumbnail {
+  margin-top: 20px;
+}
