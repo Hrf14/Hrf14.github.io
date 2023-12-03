@@ -14,89 +14,100 @@
   </head>
   <body>
     <!-- head -->
-    <header style="background-color: #6f2baa">
-      <div class="container p-2 text-end">
-        <a
-          href="login.html"
-          class="text-light fs-5 me-3 me-md-0"
-          style="text-decoration: none"
-          >Login</a
-        >
-      </div>
-    </header>
-
-    <!-- navbar -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg navbar-dark p"
-      style="background-color: #b053ff"
-    >
-      <div class="container-fluid ms-md-5">
-        <a
-          class="d-none d-md-block navbar-brand text-uppercase fw-semibold"
-          href="#"
-          >Informatics Education</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto me-5 fs-5">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mahasiswa.html">Mahasiswa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="contact.html"
-                style="border-bottom: 2px solid white"
-                >Contact us</a
-              >
-            </li>
-          </ul>
+    <div>
+      <header style="background-color: #6f2baa">
+        <div class="container p-2 text-end">
+          <a
+            href="login.html"
+            class="text-light fs-5 me-3 me-md-0"
+            style="text-decoration: none"
+            >Login</a
+          >
         </div>
-      </div>
-    </nav>
+      </header>
+
+      <!-- navbar -->
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg navbar-dark p"
+        style="background-color: #b053ff"
+      >
+        <div class="container-fluid ms-md-5">
+          <a
+            class="d-none d-md-block navbar-brand text-uppercase fw-semibold"
+            href="#"
+            >Informatics Education</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5 fs-5">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profil.html">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registrasi.html">Registrasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data-mhs.html">Mahasiswa</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  style="border-bottom: 2px solid white"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- content -->
     <section>
-      <div class="container mt-5 jus">
+      <div class="container mt-5">
         <div class="row justify-content-center">
           <div class="col-10 col-md-6">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
-                >Nama Lengkap</label
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Nama Lengkap</label
+                >
+                <input type="text" class="form-control" id="form-pesan" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="form-pesan-textarea"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn text-light"
+                style="background-color: #b053ff"
               >
-              <input type="text" class="form-control" id="form-pesan" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
-                >Pesan</label
-              >
-              <textarea
-                class="form-control"
-                id="form-pesan-textarea"
-                rows="3"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn" style="background-color: #b053ff">
-              Submit
-            </button>
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>

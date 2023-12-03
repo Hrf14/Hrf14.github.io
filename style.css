@@ -58,20 +58,31 @@
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.274);
 }
 
-#login-btn {
-  background-color: rgb(185, 84, 84);
-}
-
 #form-pesan:focus,
+#form-asal-sekolah:focus,
+#form-alasan:focus,
 #form-pesan-textarea:focus {
   outline: none;
   box-shadow: 0 0 10px 0 #6f2baa;
 }
 
-#content-gallery img {
-  width: 100%;
+#form-pesan::placeholder,
+#form-asal-sekolah::placeholder,
+#form-alasan::placeholder,
+#form-pesan-textarea::placeholder {
+  color: rgba(0, 0, 0, 0.541);
 }
 
-#content-gallery .img-thumbnail {
-  margin-top: 20px;
+#content-gallery img {
+  width: 100px;
+}
+
+.accordion-button.tbl-ac:not(.collapsed),
+#btn-reg:active,
+.tbl-ac:active,
+.tbl-ac:focus {
+  background-color: #c889ff;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
